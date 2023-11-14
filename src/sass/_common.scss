@@ -1,1 +1,30 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
+
+
+// h1,
+// h2,
+// h3,
+// h4,
+// h5,
+// h6,
+// p {
+//     margin-top: 0px;
+//     margin-bottom: 0px;
+// }
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.hidden{
+    display: none;
+}
+
+
+.cat-info {
+    display: flex;
+    column-gap: 20px;
+}
+
+.breed-select {margin-bottom: 20px;}
