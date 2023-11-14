@@ -7,13 +7,16 @@
     <link rel="stylesheet" href="./sass/index.scss" />
   </head>
   <body>
-    <select class="breed-select hidden"></select>
-    <p class="loader">Loading data, please wait...</p>
-    <p class="error hidden">
-      Oops! Something went wrong! Try reloading the page!
-    </p>
-    <div class="cat-info"></div>
-
+    <section>
+      <div class="container">
+        <h1>Cat search</h1>
+        <span class="loader"></span>
+        <select class="breed-select hidden">
+          <option data-placeholder="true"></option>
+        </select>
+        <div class="cat-info"></div>
+      </div>
+    </section>
     <script src="index.js" type="module"></script>
   </body>
 </html>
